@@ -125,8 +125,8 @@ button.normal {
 }
 
 #container button {
-  background-image: url("1.jpg");
-  background-color: transparent;
+  background-color: #000000;
+  background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
   color: white;
   border: 0;
   padding: 14px 60px 14px 45px;
@@ -409,10 +409,9 @@ button.white {
   justify-content: space-between;
   flex-wrap: wrap;
   align-items: center;
-  /*background-image: url("");*/
-  background-repeat: no-repeat;
+  background-color: #040026;
+  background-image: url("https://www.transparenttextures.com/patterns/cartographer.png");
   background-position: 20% 30%;
-  background-color: #06283D;
 }
 
 #newsletter h4 {
@@ -675,6 +674,160 @@ footer .follow  i:hover, footer a:hover {
 }
 
 
+/* about us page */
+#page-header.about-header {
+  background: linear-gradient(#00b894 , #e17055, #fdcb6e);
+}
+
+#about-head img {
+  width: 50%;
+  height: auto;
+}
+
+#about-head {
+  display: flex;
+  align-items: center;
+}
+
+#about-head div{
+  padding-left: 40px;
+}
+
+#about-head h1{
+  font-size: 2rem;
+}
+
+#about-app {
+  text-align: center;
+}
+
+#about-app .image {
+  width: 70%;
+  height: 100%;
+  margin: 30px auto 0 auto;
+}
+
+#about-app .image img {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+}
+
+/* contact page */
+
+#contact-details {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#contact-details .details {
+  width: 40%;
+}
+
+#contact-details .details span,
+#form-details .details span {
+  font-size: 15px;
+}
+
+#contact-details .details h1,
+#form-details form h1{
+  font-family: sans-serif;
+  font-size: 30px;
+  line-height: 35px;
+  padding: 20px 0;
+}
+
+#contact-details .details h3 {
+  font-family: sans-serif;
+  font-size: 20px;
+  padding-bottom: 15px;
+}
+
+#contact-details .details li {
+  list-style: none;
+  display: flex;
+  padding: 10px 0;
+}
+
+#contact-details .details li i {
+  font-size: 14px;
+  padding-right: 22px;
+}
+
+#contact-details .details li p {
+  margin: 0;
+  font-size: 14px;
+}
+
+#contact-details .map {
+  width: 55%;
+  height: 400px;
+}
+
+#contact-details .map iframe {
+  width: 100%;
+  height: 100%;
+}
+
+#form-details {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px;
+  padding: 80px;
+  border: 1px solid #e1e1e1;
+}
+
+
+#form-details form {
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+#form-details form input,
+#form-details form textarea {
+  width: 100%;
+  padding: 12px 15px;
+  outline: none;
+  margin-bottom: 20px;
+  border: 1px solid #e1e1e1;
+}
+
+#form-details form button {
+  background-color: #088178;
+  color: #fff;
+}
+
+#form-details .people div {
+  padding-bottom: 25px;
+  display: flex;
+  align-items: flex-start;
+}
+
+#form-details .people div img {
+  width: 65px;
+  height: 65px'
+  object-fit: cover;
+  margin-right: 15px;
+}
+
+#form-details .people div p {
+ margin: 0;
+ font: 13px;
+ line-height: 25px;
+}
+
+#form-details .people div p span {
+  display: block;
+  font-size: 16px;
+  font-weight: 600;
+  color: black;
+}
+
+
+
 /*////////////////*/
 
 @media (max-width:799px) {
@@ -772,6 +925,13 @@ footer .follow  i:hover, footer a:hover {
       margin-top: 20px;
     }
 
+    #form-details {
+      padding: 40px;
+    }
+
+    #form-details form {
+      width: 50%;
+    }
 }
 
 @media (max-width: 477px) {
@@ -872,4 +1032,55 @@ footer .follow  i:hover, footer a:hover {
   #blog .blog-details {
     width: 100%;
   }
+
+  /* about page */
+  #about-head {
+    flex-direction: column;
+  }
+
+  #about-head img {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  #about-head div {
+    padding-left: 0px;
+  }
+
+  #about-app .image {
+    width: 100%;
+  }
+
+  /* Contact pagr */
+
+  #contact-details  {
+    flex-direction: column;
+  }
+
+  #contact-details .details {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  #contact-details .map {
+    width: 100%;
+  }
+
+  #form-details {
+    margin: 10px;
+    padding: 30px 10px;
+    flex-wrap: wrap;
+  }
+
+  #form-details form {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  #form-details form input,
+  #form-details form textarea {
+    padding: 12px 2px;
+  }
+
+
 }
