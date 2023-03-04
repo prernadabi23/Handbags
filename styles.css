@@ -826,6 +826,133 @@ footer .follow  i:hover, footer a:hover {
   color: black;
 }
 
+#page-header.contact-header {
+  background: linear-gradient(#FFB100, #579BB1);
+}
+
+#page-header.cart-header {
+  background: linear-gradient(#183A1D, #443C68, #439A97);
+}
+
+
+/* cart page */
+
+
+
+#cart {
+  text-align: center;
+  overflow-x: auto;
+}
+
+#cart table{
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+  white-space: nowrap;
+}
+
+#cart table img{
+  width: 70px;
+}
+
+#cart table td:nth-child(1){
+  width: 100px;
+  text-align: center;
+}
+
+#cart table td:nth-child(2){
+  width: 150px;
+  text-align: center;
+}
+
+#cart table td:nth-child(3){
+  width: 250px;
+  text-align: center;
+}
+
+#cart table td:nth-child(4),
+#cart table td:nth-child(5),
+#cart table td:nth-child(6){
+  width: 150px;
+  text-align: center;
+}
+
+#cart table td:nth-child(5) input{
+  width: 70px;
+  padding: 10px 5px 10px 15px;
+}
+
+#cart table thead{
+  border: 1px solid grey;
+  border-left: none;
+  border-right: none;
+}
+
+#cart table thead td {
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 13px;
+  padding: 18px 0;
+}
+
+#cart table tbody tr td {
+  padding-top: 15px;
+}
+
+#cart table tbody td {
+  font-size: 15px;
+}
+
+#cart-add {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+#coupon {
+  width: 50%;
+  margin-bottom: 30px;
+}
+
+#coupon h3, #subtotal h3{
+  padding-bottom: 15px;
+}
+
+#coupon input{
+  padding: 10px 20px;
+  outline: none;
+  width: 60%;
+  margin-right: 10px;
+  border: 1px solid grey;
+}
+
+#coupon button,
+#subtotal button {
+  background-color: #088178;
+  color: #fff;
+  padding: 12px 20px;
+}
+
+#subtotal {
+  width: 50%;
+  margin-bottom: 30px;
+  border: 1px solid grey;
+  padding: 30px;
+}
+
+#subtotal table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+#subtotal table td {
+  width: 50%;
+  border: 1px solid grey;
+  padding: 10px;
+  font-size: 13px;
+}
+
 
 
 /*////////////////*/
@@ -848,7 +975,7 @@ footer .follow  i:hover, footer a:hover {
     width: 300px;
     background-color: #E3E6F3;
     box-shadow: 0 40px 60px rgba(0, 0, 0, 0.01);
-    padding: 80px 0 0 10px;
+    padding: 80px 0px 0px 0px;
     transition: 0.3s;
   }
 
@@ -939,6 +1066,10 @@ footer .follow  i:hover, footer a:hover {
 
   .section-p1 {
     padding: 20px;
+  }
+
+  #navbar {
+    padding: 80px 0px 0px 0px;
   }
 
   #top-container {
@@ -1082,5 +1213,15 @@ footer .follow  i:hover, footer a:hover {
     padding: 12px 2px;
   }
 
+  #cart-add {
+    flex-direction: column;
+  }
 
+  #coupon {
+    width: 100%;
+  }
+
+  #subtotal {
+    width: 50%;
+  }
 }
