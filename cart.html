@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LUNA</title>
+    <link rel="icon" href="favicon.ico">
+
+    <!-- css stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/40d5373f5a.js" crossorigin="anonymous"></script>
+
+  </head>
+  <body>
+    <section id="top-container">
+      <a class="logo" href="#">luna</a>
+
+      <div>
+        <ul id="navbar">
+          <li><a href="index.html">Home</a></li>
+          <li><a  href="shop.html">Shop</a></li>
+          <li><a  href="blog.html">Blog</a></li>
+          <li><a  href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li id="lg-bag"><a class="active" href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a></li>
+          <a href="#" id="close"><i class="fas fa-times"></i></a>
+        </ul>
+      </div>
+      <div id="mobile">
+        <a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a>
+        <!-- <i id="bar" class="fas fa-outdent"></i> -->
+        <i id="bar" class="fa-solid fa-bars"></i>
+      </div>
+    </section>
+
+    <section id="page-header" class="cart-header">
+      <div>
+        <h1>#Shop Now</h1>
+        <p>We would love to see you back here!</p>
+      </div>
+
+    </section>
+
+    <section id="cart" class="section-p1">
+      <table width="100%">
+        <thead>
+          <tr>
+            <td>Remove</td>
+            <td>Image</td>
+            <td>Product</td>
+            <td>Price</td>
+            <td>Quantity</td>
+            <td>Subtotal</td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+            <td><img src="https://images.pexels.com/photos/3653614/pexels-photo-3653614.jpeg?auto=compress&cs=tinysrgb&w=600" alt=""></td>
+            <td>Luna Handbags</td>
+            <td>$120</td>
+            <td><input type="number" value="1"></td>
+            <td>$120</td>
+          </tr>
+
+          <tr>
+            <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+            <td><img src="https://images.pexels.com/photos/7147431/pexels-photo-7147431.jpeg?auto=compress&cs=tinysrgb&w=600" alt=""></td>
+            <td>Luna Handbags</td>
+            <td>$120</td>
+            <td><input type="number" value="1"></td>
+            <td>$120</td>
+          </tr>
+
+          <tr>
+            <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+            <td><img src="https://images.pexels.com/photos/6539941/pexels-photo-6539941.jpeg?auto=compress&cs=tinysrgb&w=600" alt=""></td>
+            <td>Luna Handbags</td>
+            <td>$120</td>
+            <td><input type="number" value="1"></td>
+            <td>$120</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="cart-add" class="section-p1">
+
+      <div id="coupon">
+        <h3>Apply Coupon</h3>
+        <div>
+          <input type="text" placeholder="Enter your Coupon">
+          <button class="normal" type="button" name="button">Apply</button>
+        </div>
+      </div>
+
+      <div id="subtotal">
+        <h3>Cart Totals</h3>
+        <table>
+          <tr>
+            <td>Cart Subtotal</td>
+            <td>$360</td>
+          </tr>
+          <tr>
+            <td>Shipping</td>
+            <td>Free</td>
+          </tr>
+          <tr>
+            <td> <strong>Total</strong> </td>
+            <td> <strong>$360</strong> </td>
+          </tr>
+        </table>
+
+        <button class="normal" type="button" name="button">Proceed to checkout</button>
+      </div>
+
+    </section>
+
+
+    <footer class="section-p1">
+      <div class="col">
+        <a class="logo" href="#">luna</a>
+        <h4>Contact</h4>
+        <p> <strong>Address:</strong> IIITDM Jabalpur, Madhya Pradesh.</p>
+        <p><strong>Phone:</strong> +91 ***** 38108</p>
+        <p><strong>Hours:</strong> 10:00 - 20:00 , Mon - Sat</p>
+        <div class="follow">
+          <h4>Follow us</h4>
+          <div class="icon">
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-pinterest"></i>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <h4>About</h4>
+        <a href="#">About Us</a>
+        <a href="#">Delivery Information</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms & Conditions</a>
+        <a href="#">Contact Us</a>
+      </div>
+
+      <div class="col">
+        <h4>My Account</h4>
+        <a href="#">Sign In</a>
+        <a href="#">View charset</a>
+        <a href="#">My Wishlist</a>
+        <a href="#">Track My Order</a>
+        <a href="#">Help</a>
+      </div>
+
+      <!-- <div class="copyright">
+        <p>© 2023 LUNA</p>
+      </div> -->
+
+    </footer>
+
+    <script src="index.js" charset="utf-8"></script>
+  </body>
+</html>
